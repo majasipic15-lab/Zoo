@@ -1,0 +1,50 @@
+body {
+	color: #3c434a;
+    background: #fff;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 2em 4em 4em;
+
+}
+
+h1 {
+	color: darkred;
+}
+
+h2 {
+	color: red;
+}
+
+a:link, a:visited, a:active {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+.zentriert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
